@@ -1,0 +1,83 @@
+/*-------- CSS VARIABLE LINK --------*/
+@import url("css_variable.css");
+/*-------- CSS VARIABLE LINK --------*/
+
+/*-------- GLOBAL CSS --------*/
+body{
+    background-color: var(--body__background__color);
+    color: var(--body__text__color);
+    font-family: var(--body__font__family);
+}
+
+.main__container{
+    padding: 0;
+    margin: 0;
+}
+
+.main__container{
+    padding: 0;
+    margin: 0;
+}
+
+.main__container h1{
+    text-transform: uppercase;
+    margin: 0;
+    padding: 0;
+}
+
+.note{
+margin-top: 6px;
+font-size: 1.1em;
+}
+
+.grid__form__container{
+    display: grid;
+    padding: 0;
+    margin: 0;
+    font-size: 1.2em;
+    grid-template-areas: "MyInput";
+}
+
+.grid__form__item__container{
+padding: 0;
+margin: 0;
+}
+
+.grid__form__item__container label{
+display: block;
+margin-bottom: .2em;
+}
+
+.grid__form__item__container input{
+width: var(--form__width);
+height: 2.3em;
+border-radius: .3em;
+}
+
+input[type="button"]{
+    width: var(--form__width);
+    height: 3em;
+    border: 1px solid black;
+}
+
+input[type="button"]:hover{
+    color: var(--button__hover__color);
+    background-color: var(--button__hover__backgroundcolor);
+    border: 1px solid #ffffff;
+}
+
+input[type="text"]:focus{    
+    background-color: lightgray;
+    border: 2px solid dodgerblue;
+}
+
+input[type="text"]::placeholder{    
+    color: black;
+    font-weight: bold;
+}
+
+.asterik{
+    color: red;
+}
+
+/*--x----- GLOBAL CSS -----x--*/
