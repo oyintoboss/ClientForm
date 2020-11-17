@@ -35,11 +35,12 @@ font-size: 1.1em;
     justify-content: center;
     margin: 0;
     grid-template-columns: 25em;
-    grid-gap: .01em;
+    grid-gap: -1em;
 }
 
 .input__width{
     grid-column: 1/2;
+    margin-bottom: -.1em;
 }
 
 .grid__form__item__container label{
